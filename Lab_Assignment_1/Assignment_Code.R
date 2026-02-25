@@ -62,7 +62,6 @@ data <- data %>%
   )
 
 # 8. Export Cleaned Data
-write.csv(data, file = 'cleanedStudent.csv', row.names = FALSE)
+write.csv(data, file = 'cleanedDataset.csv', row.names = FALSE)
 
-cat("\nData cleaning complete! File saved as cleanedStudent.csv\n")
-print(head(data))
+cat("\nData cleaning complete! File saved as cleanedDataset.csv\n")
